@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:include="fragments/header :: header"/>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- Navigation start -->
+
+    <nav class="navbar navbar-custom navbar-fixed-top navbar-color" role="navigation">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Jared Weinfurtner</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Navigation end -->
+
+    <!-- Intro section start -->
+
+    <section id="intro" class="section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="hello wow bounceInDown">
+                        <h1>Jared Weinfurtner</h1>
+                        <h3><span >Full-Stack Software Engineer</span></h3>
+                    </div>
+
+                    <a href="#profile">
+                        <div class="mouse-icon">
+                            <div class="wheel"></div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div><!-- .row -->
+
+        </div><!-- .container -->
+
+    </section>
+
+    <!-- Intro section end -->
+
+    <!-- Profile section start -->
+
+    <section id="profile" class="section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">About</h3>
+                    <div class="section-title-border"></div>
+                </div>
+            </div>
+
+            <div class="row mt20">
+                <div class="col-sm-3 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
+                    <img src="images/profile.jpg" class="img-responsive about-img" />
+                </div>
+                <div class="col-sm-9 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
+                    <p class="lead">
+                        I am an accomplished and motivated Senior Software Engineer with 9 years of extensive professional experience involving agile software development practices, analysis, design, implementation, and testing.
+                    </p>
+                    <p>
+                        For the past 5 years, I have been working with the hybris framework - an omni-channel ecommerce framework built on top of the Spring framework.  Before that, I worked with IBM WebSphere Portal for 4 years creating JSR-168 and JSR-286 Portlets.
+                    </p>
+                    <p>
+                        When not coding, I love to coach others using code reviews, paired programming, and whiteboards discussions.  I have found that part of my success is rooted in my ability to build up the team around me.
+                    </p>
+                </div>
+            </div>
+
+        </div><!-- .container -->
+
+    </section>
+
+    <!-- Profile section end -->
+
+    <!-- Callout section start -->
+
+    <section id="skills" class="callout">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Skills</h3>
+                    <div class="section-title-border"></div>
+                </div>
+            </div>
+            <div class="row personal-skills">
+                <div class="col-sm-8 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
+                    <h6>Java</h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+
+                        </div>
+                    </div>
+                    <h6>Hybris</h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" style="width: 94%;">
+
+                        </div>
+                    </div>
+                    <h6>Spring</h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+
+                        </div>
+                    </div>
+                    <h6>JSP/Thymeleaf</h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+
+                        </div>
+                    </div>
+                    <h6>Design Patterns</h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
+
+                        </div>
+                    </div>
+                    <h6>HTML/CSS</h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%;">
+
+                        </div>
+                    </div>
+                    <h6>JavaScript</h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%;">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
+                    <h4>Knowledge</h4>
+                    <ul class="fa-ul skills-ul">
+                        <li><i class="fa-li fa fa-check"></i>Agile/Scrum</li>
+                        <li><i class="fa-li fa fa-check"></i>Test Driven Development</li>
+                        <li><i class="fa-li fa fa-check"></i>Unit Testing</li>
+                        <li><i class="fa-li fa fa-check"></i>Design Patterns</li>
+                        <li><i class="fa-li fa fa-check"></i>Continuous Integration</li>
+                        <li><i class="fa-li fa fa-check"></i>Git/SVN</li>
+                        <li><i class="fa-li fa fa-check"></i>Docker</li>
+                        <li><i class="fa-li fa fa-check"></i>Vagrant</li>
+                        <li><i class="fa-li fa fa-check"></i>Web Services</li>
+                    </ul>
+
+                    <h4>Languages</h4>
+                    <div class="lang-container">
+                        <input type="text" value="100" class="dial"
+                               data-width="100"
+                               data-height="100"
+                               data-fgColor="#353535"
+                               data-skin="tron"
+                               data-thickness=".2"
+                               data-displayPrevious="true"
+                               data-readOnly="true"/>
+                        <p class="lang-description">English</p>
+                        <span class="lang-level">native</span>
+                    </div>
+
+                    <div class="lang-container">
+                        <input type="text" value="60" class="dial"
+                               data-width="100"
+                               data-height="100"
+                               data-fgColor="#353535"
+                               data-skin="tron"
+                               data-thickness=".2"
+                               data-displayPrevious="true"
+                               data-readOnly="true"
+                               data-bgColor="#353535"/>
+                        <p class="lang-description">German</p>
+                        <span class="lang-level">intermediate</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section" id="tweets">
+        <div class="container">
+            <div class="row">
+                <div style="visibility: visible; animation-duration: 0.7s; animation-delay: 0s; animation-name: fadeInDown;" class="col-sm-12 text-center wow fadeInDown animated" data-wow-duration="0.7s" data-wow-delay="0s">
+                    <a href="https://www.xing.com/profile/Jared_Weinfurtner" target="_blank">
+                        <i class="fa fa-xing "></i>
+                    </a>
+                    <a href="https://de.linkedin.com/in/jweinfurtner" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="http://github.com" target="_blank">
+                        <i class="fa fa-github "></i>
+                    </a>
+                    <a href="http://stackoverflow.com" target="_blank">
+                        <i class="fa fa-stack-overflow "></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Callout section end -->
+
+    <!-- Services section start -->
+
+    <section id="work" class="section inner-section">
+
+        <div class="container container-fluid nopadding">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Work</h3>
+                    <div class="section-title-border"></div>
+                </div>
+            </div>
+
+            <div class="dividewhite4"></div>
+
+            <ul class="timeline-vert timeline-light">
+
+                <!-- TransGourmet -->
+                <li>
+                    <div class="timeline-badge primary">
+                        <i class="flaticon-tool-1"></i>
+                    </div>
+                    <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.3s" data-wow-offset="10">
+                        <p class="timeline-time fontcolor-invert">
+                            <i class="glyphicon glyphicon-time"></i> Aug 2011 - Present
+                        </p>
+                        <div class="timeline-photo timeline-dmc-hybris"></div>
+                        <div class="timeline-heading">
+                            <h3 class="font-accident-two-normal uppercase">dmc digital media center GmbH</h3>
+                            <h6 class="uppercase">Senior Software Engineer</h6>
+                            <p>Hybris certified e-commerce focused software consultant, software engineer, and coach using the hybris framework – a multi-channel e-commerce framework built on the Spring framework using best-practice Java design patterns.</p>
+                            <p>Projects:</p>
+                            <ul>
+                                <li>Transgourmet</li>
+                                <li>UCANDO</li>
+                                <li>SICK</li>
+                                <li>Ulla Popken</li>
+                                <li>KAISER+KRAFT</li>
+                                <li>Conrad Electronic</li>
+                                <li>Adler Modemärkte</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="timeline-inverted">
+                    <div class="timeline-badge success">
+                        <i class="flaticon-tool-1"></i>
+                    </div>
+                    <div class="timeline-panel wow fadeInRight" data-wow-delay="0.3s" data-wow-offset="10">
+                        <p class="timeline-time fontcolor-invert">
+                            <i class="glyphicon glyphicon-time"></i> June 2007 - Aug 2011
+                        </p>
+                        <div class="timeline-photo timeline-yum-websphere"></div>
+                        <div class="timeline-heading">
+                            <h3 class="font-accident-two-normal uppercase">Yum! Brands</h3>
+                            <h6 class="uppercase">Software Engineer</h6>
+                            <p>IBM WebSphere Portal (v6.1) and Content Management software engineer and administrator that connected over 14,000 restaurants.</p>
+                            <p>Concentrations:</p>
+                            <ul>
+                                <li>IBM WebSphere JSR-168 &amp; JSR-286 Portlet Development</li>
+                                <li>IBM WebSphere Web Content Management (WCM)</li>
+                                <li>IBM WebSphere Portal Administration</li>
+                                <li>IBM WebSphere Theme Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="timeline-badge primary">
+                        <i class="flaticon-graduation9"></i>
+                    </div>
+                    <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.3s" data-wow-offset="10">
+                        <p class="timeline-time fontcolor-invert">
+                            <i class="glyphicon glyphicon-time"></i> Aug 2003 - Dec 2008
+                        </p>
+                        <div class="timeline-photo timeline-university-louisville"></div>
+                        <div class="timeline-heading">
+                            <h3 class="font-accident-two-normal uppercase">University of Louisville</h3>
+                            <h6 class="uppercase">Bachelor of Science in Business Administration (B.S.B.A.)</h6>
+                            <p>Major in Computer Information Systems with a Concentration in Information Security</p>
+                            <p>The Information Security program was designated by NSA and the U.S. Department of Homeland Security as a National Center of Academic Excellence in Information Assurance Education</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- Services section end -->
+
+    <!-- Callout section start -->
+
+    <section id="contact" class="section inner-section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="section-title">Contact</h3>
+                    <div class="section-title-border"></div>
+                </div>
+            </div>
+
+            <div class="row">
+
+
+
+                <div style="visibility: visible; animation-name: bounceInUp;" class="col-md-4 wow bounceInUp animated">
+
+                    <p>
+                        I am currently not looking to change companies, but feel free to stay in contact!
+                    </p>
+
+                    <ul class="icon-list">
+                        <li>
+                            <i class="fa fa-fw fa-map-marker"></i>Stuttgart, Germany
+                        </li>
+                        <li>
+                            <i class="fa fa-fw fa-envelope-o"></i><a href="mailto:contactSPAMweinfurtnerPREVENTIONio" onclick="this.href=this.href.replace(/SPAM/,'&#64;').replace(/PREVENTION/,'&#46;')">contact<span class="hidden">spam</span>&#64;weinfurtner<span class="hidden">prevention</span>&#46;io</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-fw fa-globe"></i><a href="">http://weinfurtner.io</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div style="visibility: visible; animation-name: bounceInRight;" class="col-md-8 wow bounceInRight animated">
+
+                    <form id="contact-form" role="form" action="/contact" method="post" th:action="@{/contact}" th:object="${contactForm}">
+
+                        <div class="form-group">
+                            <label class="sr-only" for="c_name">Name</label>
+                            <input id="c_name" class="form-control" name="name" placeholder="Name" type="text" required="required"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="email">Email address</label>
+                            <input id="email" class="form-control" name="email" placeholder="E-mail" type="email" data-error="Sorry, that email address is invalid" required="required"/>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" name="message" rows="7" placeholder="Your message" required="required"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-custom-1 btn-block">
+                            <i class="fa fa-bullhorn icon-before"></i> <span class="contact-form-button-text">Send it</span>
+                        </button>
+
+                    </form>
+
+                    <div class="ajax-response"></div>
+
+                </div>
+
+            </div>
+
+        </div><!-- .container -->
+
+    </section>
+
+    <!-- Callout section end -->
+
+    <section class="map">
+
+        <div class="container">
+
+            <div id="map"
+                 data-map-mark="Stuttgart, Germany"
+                 data-map-lng="9.1821068"
+                 data-map-lat="48.7761756"
+                 style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden;"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer start -->
+
+   <th:block th:include="fragments/footer :: footer" />
+
+    <!-- Footer end -->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>

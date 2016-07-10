@@ -1,0 +1,78 @@
+
+/* 
+ * About
+ * --------------------------------------------------------- */
+.feature-box-container {
+  margin: 60px 0;
+}
+.feature-box-container:last-child {
+  margin-bottom: 0;
+}
+.feature-box .icon {
+  float: left;
+}
+.feature-box .icon i {
+  font-size: 30px;
+  display: block;
+}
+.feature-box .description {
+  margin-left: 65px;
+}
+.feature-box .description h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.feature-box .description p {
+  font-size: 14px;
+  zoom: 1;
+  filter: alpha(opacity=70);
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  line-height: 24px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .feature-box-container {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 768px) {
+  .about-img {
+    margin-bottom: 20px;
+  }
+}
+.about-item {
+  position: relative;
+}
+.about-item img {
+  height: 250px;
+  width: 387px;
+}
+
+/* 
+ * Skills
+ * --------------------------------------------------------- */
+.personal-skills h4 {
+  margin-bottom: 25px;
+}
+.lang-container {
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+}
+.lang-description {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 2px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.lang-level {
+  font-size: 12px;
+  opacity: 0.7;
+}
+.skills-ul {
+  font-size: 14px;
+}
